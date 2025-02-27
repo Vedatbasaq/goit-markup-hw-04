@@ -471,3 +471,8 @@ menu:active {
 .footer-social-title {
   color: #ffffff;
 }
+.footer p {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
