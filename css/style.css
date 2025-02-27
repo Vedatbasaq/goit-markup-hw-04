@@ -53,7 +53,7 @@ ol {
   list-style-type: none;
 }
 
-section {
+.section {
   padding: 120px 0;
   width: 100%;
 }
@@ -63,7 +63,7 @@ section {
   flex-direction: column;
 }
 
-/* header */
+/* HEADER */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -102,6 +102,11 @@ section {
 .menu-list-item {
   padding: 24px 0;
 }
+.menu-list-item a {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .menu-list {
   display: block;
   text-decoration: none;
@@ -133,6 +138,9 @@ section {
   display: flex;
   gap: 40px;
 }
+.contact a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .contact_list {
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -148,7 +156,7 @@ menu:active {
   color: #404bbf;
 }
 
-/* slider (section bir) */
+/* SLIDER ) SECTION BIR */
 .slider {
   background-color: #2e2f42;
   text-align: center;
@@ -197,7 +205,7 @@ menu:active {
   background-color: #404bbf;
 }
 
-/* our content (section iki */
+/* OUR CONTENT ) SECTION IKI */
 .our-content-section {
   padding: 120px 0;
 }
